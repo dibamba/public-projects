@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    
+</head>
+<body>
+<h1> Temperature at your location: </h1>
+<h2>{{ temp }}</h2>
+
+<h1>Actor List</h1>
+    <table>
+        <thead>
+            <tr><th>FN</th><th>LN</th></tr>
+        </thead>
+        <tbody>
+            {% for actor in all_actors %} {# Loop through fetched users #}
+            <tr>
+                
+                <td>{{ actor.first_name }}</td>
+                <td>{{ actor.last_name }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
