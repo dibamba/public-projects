@@ -48,3 +48,6 @@ venv.bak/
 Thumbs.db
 EOF
 
+# generated vector db
+chapters_vector_db/
+vector_db

@@ -1,0 +1,17 @@
+streamlit
+python-dotenv
+nltk
+unstructured
+unstructured[pdf]
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-groq
+transformers
+sentence-transformers
+youtube-search-python
+httpx
+
+langchain
+langchain-classic
+langchain-chroma
